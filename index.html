@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+  <html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Чёрный квадрат Малевича</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+  <div class="image-wrapper" id="imageWrapper">
+    <img id="square" src="bs.png" alt="Чёрный квадрат" />
+  </div>
+  <div class="slider-container" id="sliderContainer">
+    <input type="range" id="slider" min="0" max="360" step="1" value="0" />
+  </div>
+  <audio id="successSound" src="success.mp3" preload="auto"></audio>
+</div>
+
+<div id="alertOverlay" class="hidden">
+  <div class="alertBox">
+    <h1>БЕДА</h1>
+    <p>Реальность разорвана. Картина активировалась. Время остановилось...</p>
+    <button id="closeAlert">Я понял</button>
+  </div>
+  <audio id="boomSound" src="boom.mp3" preload="auto" loop></audio>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
