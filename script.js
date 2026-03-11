@@ -85,7 +85,7 @@ slider.addEventListener("input", () => {
                             document.getElementById("closeAlert").addEventListener("click", () => {
                                 document.getElementById("alertOverlay").classList.add("hidden");
                                 boomSound.pause();
-                                // window.location.href = "https://b-lunch.ru";
+                                window.location.href = "https://coffeelef.ru/culture";
                             });
 
                         }, 5000);
@@ -105,3 +105,4 @@ slider.addEventListener("input", () => {
     }
 
 });
+
